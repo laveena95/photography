@@ -9,7 +9,7 @@
         transition="fade-transition"
         >
         <v-row
-            class="fill-height title"
+            class="fill-height title hidden-xs-only"
             align="center"
             justify="center"
           >

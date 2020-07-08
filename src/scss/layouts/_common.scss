@@ -65,12 +65,10 @@
   // static hero
   .staticHero {
     @media only screen and (max-width: 767px) {
-      height: 130px;
-    }
-  
-    .v-img {
+      max-height: 100%;
+    .v-image {
       @media only screen and (max-width: 767px) {
-        height: 100px;
+        height: 100% !important;
       }
     }
   
@@ -86,3 +84,4 @@
     font-size: 40px;
     margin: 0 0 40px;
   }
+}
