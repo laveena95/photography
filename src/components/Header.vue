@@ -1,22 +1,20 @@
 <template>
   <v-container>
     <v-toolbar >
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
       <v-toolbar-title>4TOGRAPHY</v-toolbar-title>
 
       <v-spacer></v-spacer>
-      <v-toolbar-items class="hidden-xs-only">
-        <v-btn icon>
-          <router-link to="/"><v-icon>mdi-home</v-icon></router-link>
+      <v-toolbar-items class="hidden-xs-only" >
+        <v-btn text>
+          <router-link to="/">HOME</router-link>
         </v-btn>
 
-        <v-btn icon>
-          <router-link to="/about"><v-icon>mdi-pencil</v-icon></router-link>
+        <v-btn>
+          <router-link to="/about">ABOUT</router-link>
         </v-btn>
 
-        <v-btn icon>
-          <router-link to="/contact"><v-icon>mdi-phone</v-icon></router-link>
+        <v-btn>
+          <router-link to="/contact">CONTACT</router-link>
         </v-btn>
       </v-toolbar-items>
       <div class="hidden-sm-and-up">
